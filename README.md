@@ -51,7 +51,6 @@ The final interface separates these results into different tabs so that the revi
 
 Mindation is built around several pretrained AI components rather than one model doing everything.
 
-```text
 Study materials
       |
       v
