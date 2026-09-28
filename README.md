@@ -50,7 +50,7 @@ The final interface separates these results into different tabs so that the revi
 ## How the AI pipeline works
 
 Mindation is built around several pretrained AI components rather than one model doing everything.
-
+```text
 Study materials
       |
       v
@@ -76,7 +76,7 @@ Support Check
       |
       v
 Learning Pack
-
+``` 
 ## How to Start
 
 Use Python **3.10, 3.11 or 3.12**.
