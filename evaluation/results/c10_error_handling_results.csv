@@ -1,0 +1,9 @@
+﻿test_id,case,expected_behavior,observed_behavior,uncontrolled_crash,fabricated_content,result
+C10-01,No material submitted,Graceful no-evidence response,0 sources/evidence; Nil output,No,No,PASS
+C10-02,Corrupted PDF,Handle unreadable PDF safely,0 usable sources/evidence; Nil output,No,No,PASS
+C10-03,Silent WAV audio,Handle empty Whisper transcript safely,Controlled empty-transcript warning; no output,No,No,PASS
+C10-04,Video with no audio track,Handle failed audio extraction safely,Controlled ffmpeg warning; no output,No,No,PASS
+C10-05,Corrupted image,Handle image decode/caption failure safely,Controlled image-captioning warning; no output,No,No,PASS
+C10-06,Unsupported file types,Reject unsupported types before processing,Uploader flagged unsupported formats,No,No,PASS
+C10-07,Image captioning disabled,Handle required model disabled,Clear disabled-model warning; no output,No,No,PASS
+C10-08,Unsupported topical request,Reject unrelated request without fabrication,Relevance gate rejected query; no generated content,No,No,PASS

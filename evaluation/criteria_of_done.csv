@@ -1,0 +1,12 @@
+﻿criterion_id,component,target,measurement,final_result,status
+C01,Text/PDF ingestion,100% of defined supported files handled successfully,Functional tests,,MET
+C02,Audio ingestion,100% of defined supported audio files processed,Integration tests,,MET
+C03,Transcription,Mean WER <= 20%,Word Error Rate,0.150,Met
+C04,Retrieval,Recall@3 >= 0.80,Recall@3,0.694,Not met
+C05,Routing,Accuracy >= 0.85,Accuracy and Macro F1,0.700,Not met
+C06,Learning-pack generation,>= 90% of scripted generation cases complete successfully,End-to-end tests,,Met
+C07,Unsupported-query rejection,>= 80% correctly rejected,Rejection rate,1.000,Met
+C08,Support checking,Support checking implemented for generated factual outputs,Functional/manual evaluation,"40.0% accuracy, Macro F1 0.280",Met
+C09,End-to-end reliability,>= 90% of defined end-to-end workflows complete successfully,End-to-end success rate,,Met
+C10,Invalid/unsupported inputs,100% of defined negative tests handled without uncontrolled crash,Negative tests,,Met
+C11,Usability,>= 80% task completion during user evaluation,Task completion rate,80% (20/25),Met

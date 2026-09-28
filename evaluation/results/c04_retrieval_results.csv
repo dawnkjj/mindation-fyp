@@ -1,0 +1,3 @@
+﻿method,n_queries,recall_at_1,recall_at_3,recall_at_5,mrr,mean_latency_seconds,target_recall_at_3,status
+SentenceTransformer,30,0.3667,0.6944,0.8556,0.73342,0.009069,0.8,NOT MET
+TF-IDF,30,0.3167,0.6,0.6944,0.6412,0.000971,0.8,NOT MET

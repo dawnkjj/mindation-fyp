@@ -1,0 +1,7 @@
+streamlit>=1.38,<2
+numpy>=1.26,<3
+scikit-learn>=1.4,<2
+pypdf>=4.0,<6
+requests>=2.31,<3
+imageio-ffmpeg>=0.4.9,<1
+pytest>=8,<9

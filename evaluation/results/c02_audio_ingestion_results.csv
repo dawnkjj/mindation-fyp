@@ -1,0 +1,5 @@
+﻿test_id,input_case,expected,observed,pass,notes
+C02-A01,A01.wav,Audio processed,Completed successfully,Yes,Uploaded WAV
+C02-A02,A04.wav,Audio processed,Completed successfully,Yes,Uploaded WAV
+C02-A03,A08.wav,Audio processed,Completed successfully,Yes,Uploaded WAV
+C02-A04,Browser microphone,Recorded audio processed,Completed successfully,Yes,Browser recording

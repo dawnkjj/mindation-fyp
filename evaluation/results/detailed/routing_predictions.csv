@@ -1,0 +1,81 @@
+experiment,prompt_id,prompt,expected_label,predicted_label,confidence,actual_method_used,latency_seconds
+Keyword,P001,Summarise this lecture for me.,summarise lecture,summarise lecture,0.6,keyword-fallback,0.0007661000126972795
+Keyword,P002,Give me the main ideas from today's material.,summarise lecture,summarise lecture,0.2,keyword-fallback,7.450001430697739e-05
+Keyword,P003,Condense these notes into a short overview.,summarise lecture,summarise lecture,0.35,keyword-fallback,6.86999992467463e-05
+Keyword,P004,What are the key points covered here?,summarise lecture,summarise lecture,0.2,keyword-fallback,6.580000626854599e-05
+Keyword,P005,Can you give me a concise lecture summary?,summarise lecture,summarise lecture,0.6,keyword-fallback,6.779999239370227e-05
+Keyword,P006,Explain the main content in a shorter form.,summarise lecture,summarise lecture,0.2,keyword-fallback,6.709998706355691e-05
+Keyword,P007,Give me an overview of what this lecture discussed.,summarise lecture,summarise lecture,0.6,keyword-fallback,7.000000914558768e-05
+Keyword,P008,Reduce this material to its most important ideas.,summarise lecture,summarise lecture,0.2,keyword-fallback,6.910000229254365e-05
+Keyword,P009,Create revision notes from this material.,create revision notes,create revision notes,0.6,keyword-fallback,6.730001769028604e-05
+Keyword,P010,Turn this content into notes I can revise from.,create revision notes,create revision notes,0.6,keyword-fallback,6.829999620094895e-05
+Keyword,P011,Organise these lecture materials into revision notes.,create revision notes,create revision notes,0.48,keyword-fallback,7.319997530430555e-05
+Keyword,P012,What should I write down for revision?,create revision notes,create revision notes,0.4666666666666666,keyword-fallback,6.479999865405262e-05
+Keyword,P013,Prepare study notes covering the important concepts.,create revision notes,create revision notes,0.6,keyword-fallback,6.749999010935426e-05
+Keyword,P014,Make structured revision notes for this topic.,create revision notes,create revision notes,0.6,keyword-fallback,6.640001083724201e-05
+Keyword,P015,Create notes that I can use before my exam.,create revision notes,create revision notes,0.6,keyword-fallback,6.699998630210757e-05
+Keyword,P016,Organise the important information into study notes.,create revision notes,create revision notes,0.6,keyword-fallback,6.839999696239829e-05
+Keyword,P017,Create flashcards from these notes.,create flashcards,create revision notes,0.35,keyword-fallback,6.240000948309898e-05
+Keyword,P018,Turn the important definitions into revision cards.,create flashcards,create revision notes,0.4666666666666666,keyword-fallback,6.799999391660094e-05
+Keyword,P019,Make question-and-answer cards for this material.,create flashcards,create quiz questions,0.4666666666666666,keyword-fallback,6.769999163225293e-05
+Keyword,P020,Give me some flashcards to practise with.,create flashcards,create flashcards,0.4666666666666666,keyword-fallback,6.550000398419797e-05
+Keyword,P021,Convert these concepts into study cards.,create flashcards,create revision notes,0.4666666666666666,keyword-fallback,6.420002318918705e-05
+Keyword,P022,Create cards for memorising the key terms.,create flashcards,summarise lecture,0.2,keyword-fallback,6.549997488036752e-05
+Keyword,P023,Make a set of revision flashcards.,create flashcards,create revision notes,0.35,keyword-fallback,7.120001828297973e-05
+Keyword,P024,Turn this lecture into short question and answer cards.,create flashcards,summarise lecture,0.35,keyword-fallback,7.040001219138503e-05
+Keyword,P025,Create a quiz from these notes.,create quiz questions,create revision notes,0.35,keyword-fallback,6.260001100599766e-05
+Keyword,P026,Test me on this lecture material.,create quiz questions,summarise lecture,0.35,keyword-fallback,6.53000024612993e-05
+Keyword,P027,Generate some practice questions for revision.,create quiz questions,create revision notes,0.35,keyword-fallback,6.660001236014068e-05
+Keyword,P028,Make questions that check my understanding.,create quiz questions,summarise lecture,0.2,keyword-fallback,6.579997716471553e-05
+Keyword,P029,Give me a short revision quiz.,create quiz questions,create revision notes,0.35,keyword-fallback,6.180000491440296e-05
+Keyword,P030,Create test questions from the important concepts.,create quiz questions,create quiz questions,0.4666666666666666,keyword-fallback,6.779999239370227e-05
+Keyword,P031,Can you quiz me using this lecture?,create quiz questions,summarise lecture,0.35,keyword-fallback,6.419999408535659e-05
+Keyword,P032,Generate questions I can answer for practice.,create quiz questions,create quiz questions,0.4666666666666666,keyword-fallback,6.72000169288367e-05
+Keyword,P033,Extract the tasks I need to complete.,extract action items,summarise lecture,0.2,keyword-fallback,6.459999713115394e-05
+Keyword,P034,What actions were mentioned in these notes?,extract action items,create revision notes,0.4666666666666666,keyword-fallback,6.659998325631022e-05
+Keyword,P035,List the things I need to do after this lecture.,extract action items,summarise lecture,0.4666666666666666,keyword-fallback,7.059998461045325e-05
+Keyword,P036,Identify any coursework tasks or deadlines.,extract action items,summarise lecture,0.2,keyword-fallback,6.570000550709665e-05
+Keyword,P037,What follow-up work was mentioned?,extract action items,summarise lecture,0.2,keyword-fallback,6.319998647086322e-05
+Keyword,P038,Find any actions or responsibilities in the material.,extract action items,summarise lecture,0.2,keyword-fallback,7.000000914558768e-05
+Keyword,P039,Tell me what I need to complete next.,extract action items,summarise lecture,0.2,keyword-fallback,6.489999941550195e-05
+Keyword,P040,"Extract any assignments, tasks or required actions.",extract action items,summarise lecture,0.2,keyword-fallback,6.890000076964498e-05
+BART requested,P001,Summarise this lecture for me.,summarise lecture,summarise lecture,0.8720431327819824,bart-mnli,29.536058099998627
+BART requested,P002,Give me the main ideas from today's material.,summarise lecture,extract action items,0.5284135937690735,bart-mnli,1.100701699993806
+BART requested,P003,Condense these notes into a short overview.,summarise lecture,extract action items,0.485097199678421,bart-mnli,0.9979643000115175
+BART requested,P004,What are the key points covered here?,summarise lecture,extract action items,0.3062690794467926,bart-mnli,1.0647872999834362
+BART requested,P005,Can you give me a concise lecture summary?,summarise lecture,summarise lecture,0.8695777654647827,bart-mnli,0.9970308000047226
+BART requested,P006,Explain the main content in a shorter form.,summarise lecture,summarise lecture,0.38654667139053345,bart-mnli,1.027690499991877
+BART requested,P007,Give me an overview of what this lecture discussed.,summarise lecture,summarise lecture,0.7727906703948975,bart-mnli,1.0275467000028584
+BART requested,P008,Reduce this material to its most important ideas.,summarise lecture,create revision notes,0.4347298741340637,bart-mnli,1.0161978999967687
+BART requested,P009,Create revision notes from this material.,create revision notes,create revision notes,0.8832469582557678,bart-mnli,1.030041899997741
+BART requested,P010,Turn this content into notes I can revise from.,create revision notes,create revision notes,0.7844633460044861,bart-mnli,1.0565191000059713
+BART requested,P011,Organise these lecture materials into revision notes.,create revision notes,create revision notes,0.803709864616394,bart-mnli,0.9979688999883365
+BART requested,P012,What should I write down for revision?,create revision notes,create revision notes,0.8177477121353149,bart-mnli,0.9944726999965496
+BART requested,P013,Prepare study notes covering the important concepts.,create revision notes,extract action items,0.4573919475078583,bart-mnli,0.9824750999978278
+BART requested,P014,Make structured revision notes for this topic.,create revision notes,create revision notes,0.9100936055183411,bart-mnli,1.0689864000014495
+BART requested,P015,Create notes that I can use before my exam.,create revision notes,extract action items,0.5982816219329834,bart-mnli,1.0706567000015639
+BART requested,P016,Organise the important information into study notes.,create revision notes,extract action items,0.6660509705543518,bart-mnli,0.9885249999933876
+BART requested,P017,Create flashcards from these notes.,create flashcards,create flashcards,0.9049957394599915,bart-mnli,0.9670922000077553
+BART requested,P018,Turn the important definitions into revision cards.,create flashcards,create revision notes,0.5960144996643066,bart-mnli,1.005885999999009
+BART requested,P019,Make question-and-answer cards for this material.,create flashcards,create quiz questions,0.6022936105728149,bart-mnli,1.0495945999864489
+BART requested,P020,Give me some flashcards to practise with.,create flashcards,create flashcards,0.8095695376396179,bart-mnli,1.0243101000087336
+BART requested,P021,Convert these concepts into study cards.,create flashcards,create revision notes,0.4316837191581726,bart-mnli,1.0419926999893505
+BART requested,P022,Create cards for memorising the key terms.,create flashcards,create flashcards,0.5577282309532166,bart-mnli,0.9913041000254452
+BART requested,P023,Make a set of revision flashcards.,create flashcards,create flashcards,0.7697930335998535,bart-mnli,0.9927869999955874
+BART requested,P024,Turn this lecture into short question and answer cards.,create flashcards,create quiz questions,0.5197387933731079,bart-mnli,1.0274834999872837
+BART requested,P025,Create a quiz from these notes.,create quiz questions,create quiz questions,0.8402685523033142,bart-mnli,0.9801722000120208
+BART requested,P026,Test me on this lecture material.,create quiz questions,create quiz questions,0.738716721534729,bart-mnli,1.0518522000056691
+BART requested,P027,Generate some practice questions for revision.,create quiz questions,create revision notes,0.6577306985855103,bart-mnli,1.0115590000059456
+BART requested,P028,Make questions that check my understanding.,create quiz questions,create quiz questions,0.5772092342376709,bart-mnli,0.9724130999820773
+BART requested,P029,Give me a short revision quiz.,create quiz questions,create quiz questions,0.6950998902320862,bart-mnli,1.004889900010312
+BART requested,P030,Create test questions from the important concepts.,create quiz questions,create quiz questions,0.8914840817451477,bart-mnli,1.0459893000079319
+BART requested,P031,Can you quiz me using this lecture?,create quiz questions,create quiz questions,0.7357673645019531,bart-mnli,1.0400405000254977
+BART requested,P032,Generate questions I can answer for practice.,create quiz questions,create quiz questions,0.4895147681236267,bart-mnli,1.1497533000074327
+BART requested,P033,Extract the tasks I need to complete.,extract action items,extract action items,0.9471501111984253,bart-mnli,1.0050636999949347
+BART requested,P034,What actions were mentioned in these notes?,extract action items,extract action items,0.47181496024131775,bart-mnli,1.0961118999985047
+BART requested,P035,List the things I need to do after this lecture.,extract action items,extract action items,0.744175910949707,bart-mnli,1.0760315000079572
+BART requested,P036,Identify any coursework tasks or deadlines.,extract action items,extract action items,0.9152506589889526,bart-mnli,1.001870100008091
+BART requested,P037,What follow-up work was mentioned?,extract action items,extract action items,0.7567813992500305,bart-mnli,1.0634816999954637
+BART requested,P038,Find any actions or responsibilities in the material.,extract action items,extract action items,0.8179389834403992,bart-mnli,1.0147849000059068
+BART requested,P039,Tell me what I need to complete next.,extract action items,extract action items,0.8252017498016357,bart-mnli,0.9954785000008997
+BART requested,P040,"Extract any assignments, tasks or required actions.",extract action items,extract action items,0.9151043891906738,bart-mnli,1.0844275999988895

@@ -1,0 +1,21 @@
+﻿query_id,query,type,top1_score,top3_mean,threshold,decision,correct
+T01,What does normalization reduce in a relational database?,supported,0.519445538520813,0.4613826274871826,0.3376,accept,True
+T02,How do ER diagrams represent entities and relationships?,supported,0.6332159042358398,0.558114767074585,0.3376,accept,True
+T03,What is a one-to-many relationship?,supported,0.5507053136825562,0.4823421537876129,0.3376,accept,True
+T04,Why is a junction table needed for a many-to-many relationship?,supported,0.5782511234283447,0.5673300623893738,0.3376,accept,True
+T05,What are DDL commands used for?,supported,0.47829118371009827,0.341935396194458,0.3376,accept,True
+T06,What are DML commands used for?,supported,0.35683533549308777,0.29982790350914,0.3376,reject,False
+T07,What kinds of information are trees useful for representing?,supported,0.5587579607963562,0.5378338694572449,0.3376,accept,True
+T08,Why is unstructured multimedia difficult to query?,supported,0.6173995733261108,0.5462740063667297,0.3376,accept,True
+T09,What does public domain mean when reusing data?,supported,0.5945428609848022,0.5561246275901794,0.3376,accept,True
+T10,Why can JSON be useful for semi-structured information?,supported,0.40198779106140137,0.3927629888057709,0.3376,accept,True
+T11,How does GPS calculate a person's location?,unsupported,0.26491352915763855,0.23896284401416779,0.3376,reject,True
+T12,Explain how protein synthesis works.,unsupported,0.15249307453632355,0.12853366136550903,0.3376,reject,True
+T13,What is Keynesian economics?,unsupported,0.14601348340511322,0.13338281214237213,0.3376,reject,True
+T14,How does a CPU cache improve computer performance?,unsupported,0.17022688686847687,0.15642458200454712,0.3376,reject,True
+T15,What causes volcanic eruptions?,unsupported,0.09711132943630219,0.091452457010746,0.3376,reject,True
+T16,How does OAuth authentication work?,unsupported,0.16465777158737183,0.15564949810504913,0.3376,reject,True
+T17,Explain the theory of plate tectonics.,unsupported,0.13302746415138245,0.12515389919281006,0.3376,reject,True
+T18,How does a solar panel generate electricity?,unsupported,0.1372678428888321,0.10780019313097,0.3376,reject,True
+T19,What is polymorphism in Java?,unsupported,0.32801398634910583,0.2947186529636383,0.3376,reject,True
+T20,What causes ocean tides?,unsupported,0.1467432975769043,0.1233142837882042,0.3376,reject,True

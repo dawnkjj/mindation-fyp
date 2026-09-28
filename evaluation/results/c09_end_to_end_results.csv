@@ -1,0 +1,11 @@
+﻿test_id,input_type,prompt,actual_route,route_confidence,retrieval_method,result,notes
+C09-01,TXT,Summarise the lecture material.,summarise lecture,0.7852,sentence-transformer,PASS,Single TXT end-to-end
+C09-02,Single PDF,Create revision notes from this lecture material.,create revision notes,0.8996,sentence-transformer,PASS,Single PDF end-to-end
+C09-03,Two PDFs,Create flashcards about the database concepts in these materials.,create flashcards,0.9506,sentence-transformer,PASS,Multi-PDF flashcards
+C09-04,TXT + PDF,Create quiz questions from these lecture materials.,create quiz questions,0.9544,sentence-transformer,PASS,Mixed-document quiz
+C09-05,WAV,Summarise the recorded lecture.,summarise lecture,0.8181,sentence-transformer,PASS,Generic media task; relevance gate skipped
+C09-06,Browser microphone,Create revision notes from this recording.,create revision notes,0.9297,sentence-transformer,PASS,Browser audio end-to-end
+C09-07,Image,Summarise the important concepts shown in this material.,create revision notes,0.3279,sentence-transformer,PASS,Image captioning worked but caption was very brief
+C09-08,MP4,Summarise the lecture video.,summarise lecture,0.8493,sentence-transformer,PASS,Video audio extracted and processed
+C09-09,PDF + side notes,What should I revise from this material?,create revision notes,0.5626,sentence-transformer,PASS,Side notes appeared in generated output
+C09-10,Database PDFs + unsupported query,How do black holes form?,Rejected before generation,,sentence-transformer,PASS,top3 mean 0.0813 < 0.3376; no fabricated output

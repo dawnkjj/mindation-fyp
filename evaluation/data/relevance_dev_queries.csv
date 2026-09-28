@@ -1,0 +1,21 @@
+query_id,query,type
+D01,"Define a relational database.",supported
+D02,"What does a primary key do?",supported
+D03,"How are foreign keys used between tables?",supported
+D04,"Why are integrity constraints important?",supported
+D05,"What is the purpose of database normalization?",supported
+D06,"What are joins used for in SQL?",supported
+D07,"How are graphs useful for representing relationships?",supported
+D08,"Why is metadata important when storing media?",supported
+D09,"What are semi-structured documents?",supported
+D10,"What is an entity relationship model?",supported
+D11,"Explain quantum entanglement.",unsupported
+D12,"How does DNS resolve a domain name?",unsupported
+D13,"What causes earthquakes?",unsupported
+D14,"Explain natural selection.",unsupported
+D15,"How does a transformer neural network work?",unsupported
+D16,"What is the purpose of monetary policy?",unsupported
+D17,"Explain the water cycle.",unsupported
+D18,"How does a lithium ion battery work?",unsupported
+D19,"What is object oriented inheritance?",unsupported
+D20,"Explain how vaccines produce immunity.",unsupported

@@ -1,0 +1,11 @@
+﻿test_id,intended_function,prompt,actual_route,route_confidence,routing_method,result
+C06-01,Summary,Summarise the lecture material.,summarise lecture,0.7852,bart-mnli,PASS
+C06-02,Summary,Give me a concise summary of the main database concepts.,summarise lecture,0.3226,bart-mnli,PASS
+C06-03,Revision notes,Create revision notes from these lecture materials.,create revision notes,0.9167,bart-mnli,PASS
+C06-04,Revision notes,Turn these materials into structured notes for revision.,create revision notes,0.8699,bart-mnli,PASS
+C06-05,Flashcards,Create flashcards about the database concepts in these materials.,create flashcards,0.9506,bart-mnli,PASS
+C06-06,Flashcards,Make study flashcards from the uploaded lecture content.,create flashcards,0.8858,bart-mnli,PASS
+C06-07,Quiz,Create quiz questions from these lecture materials.,create quiz questions,0.9544,bart-mnli,PASS
+C06-08,Quiz,Test me with questions about the database topics in these notes.,create quiz questions,0.8901,bart-mnli,PASS
+C06-09,Action items,Extract the main action items from these materials.,extract action items,0.9237,bart-mnli,PASS
+C06-10,Revision guidance,What should I do next to revise the material effectively?,extract action items,0.5737,bart-mnli,PASS

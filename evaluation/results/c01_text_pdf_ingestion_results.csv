@@ -1,0 +1,5 @@
+﻿test_id,input_case,expected,observed,pass,notes
+C01-T01,TXT only,Text file ingested,Completed successfully,Yes,Database notes TXT
+C01-T02,Single PDF,PDF ingested,Completed successfully,Yes,Single CM3010 PDF
+C01-T03,Two PDFs,Both PDFs ingested,Completed successfully,Yes,Multi-document PDF ingestion
+C01-T04,TXT + PDF,Mixed text/PDF ingested,Completed successfully,Yes,Mixed document ingestion

@@ -1,0 +1,21 @@
+query_id,query,type
+T01,"What does normalization reduce in a relational database?",supported
+T02,"How do ER diagrams represent entities and relationships?",supported
+T03,"What is a one-to-many relationship?",supported
+T04,"Why is a junction table needed for a many-to-many relationship?",supported
+T05,"What are DDL commands used for?",supported
+T06,"What are DML commands used for?",supported
+T07,"What kinds of information are trees useful for representing?",supported
+T08,"Why is unstructured multimedia difficult to query?",supported
+T09,"What does public domain mean when reusing data?",supported
+T10,"Why can JSON be useful for semi-structured information?",supported
+T11,"How does GPS calculate a person's location?",unsupported
+T12,"Explain how protein synthesis works.",unsupported
+T13,"What is Keynesian economics?",unsupported
+T14,"How does a CPU cache improve computer performance?",unsupported
+T15,"What causes volcanic eruptions?",unsupported
+T16,"How does OAuth authentication work?",unsupported
+T17,"Explain the theory of plate tectonics.",unsupported
+T18,"How does a solar panel generate electricity?",unsupported
+T19,"What is polymorphism in Java?",unsupported
+T20,"What causes ocean tides?",unsupported

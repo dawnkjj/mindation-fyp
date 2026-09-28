@@ -1,0 +1,16 @@
+metric,value
+overall_accuracy,0.4
+balanced_accuracy,0.39999999999999997
+macro_f1,0.2804232804232804
+supported_precision,0.38461538461538464
+supported_recall,1.0
+supported_f1,0.5555555555555556
+supported_support,10.0
+partly_supported_precision,0.5
+partly_supported_recall,0.2
+partly_supported_f1,0.2857142857142857
+partly_supported_support,10.0
+needs_review_precision,0.0
+needs_review_recall,0.0
+needs_review_f1,0.0
+needs_review_support,10.0

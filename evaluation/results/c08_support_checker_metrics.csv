@@ -1,0 +1,8 @@
+﻿metric,value
+n_cases,30
+accuracy,0.4
+balanced_accuracy,0.4
+macro_f1,0.28
+supported_recall,1.0
+partly_supported_recall,0.2
+needs_review_recall,0.0

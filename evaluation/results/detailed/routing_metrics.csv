@@ -1,0 +1,3 @@
+experiment,accuracy,macro_f1,mean_latency_seconds,actual_methods_used
+Keyword,0.475,0.36479076479076483,8.456750001641921e-05,keyword-fallback
+BART requested,0.7,0.6944741532976828,1.7412998175008396,bart-mnli

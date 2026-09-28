@@ -1,0 +1,21 @@
+query_id,query,type
+U01,"Explain how RSA public key encryption works.",unsupported
+U02,"What are the main causes of the French Revolution?",unsupported
+U03,"Explain the process of photosynthesis.",unsupported
+U04,"How does TCP congestion control work?",unsupported
+U05,"What is reinforcement learning?",unsupported
+U06,"Explain how convolutional neural networks detect images.",unsupported
+U07,"What causes inflation in an economy?",unsupported
+U08,"Describe the stages of mitosis.",unsupported
+U09,"How does the human immune system respond to influenza?",unsupported
+U10,"Explain Newton's second law of motion.",unsupported
+U11,"What is the difference between supervised and unsupervised machine learning?",unsupported
+U12,"How does blockchain achieve consensus?",unsupported
+S01,"What is a primary key?",supported
+S02,"What is a foreign key?",supported
+S03,"Explain referential integrity.",supported
+S04,"What is data modelling?",supported
+S05,"What are graph databases useful for?",supported
+S06,"Why is metadata useful for multimedia data?",supported
+S07,"What are the advantages of relational tables?",supported
+S08,"What is semi-structured data?",supported
